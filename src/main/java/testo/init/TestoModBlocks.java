@@ -4,6 +4,8 @@
  */
 package testo.init;
 
+import testo.block.TestoBlock;
+
 import testo.TestoMod;
 
 import net.minecraftforge.registries.RegistryObject;

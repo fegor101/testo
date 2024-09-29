@@ -8,14 +8,14 @@
     "textureFlowing": "testo",
     "tintType": "No tint",
     "canMultiply": false,
-    "flowRate": 1,
+    "flowRate": 5,
     "levelDecrease": 1,
     "slopeFindDistance": 16,
     "spawnParticles": true,
     "dripParticle": {
       "value": "EXPLOSION_NORMAL"
     },
-    "flowStrength": 10.0,
+    "flowStrength": -3.0,
     "luminosity": 0,
     "density": 1000,
     "viscosity": 1000,

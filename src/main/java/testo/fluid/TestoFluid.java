@@ -17,7 +17,7 @@ import net.minecraft.core.particles.ParticleOptions;
 
 public abstract class TestoFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> TestoModFluidTypes.TESTO_TYPE.get(), () -> TestoModFluids.TESTO.get(), () -> TestoModFluids.FLOWING_TESTO.get()).explosionResistance(100f)
-			.tickRate(1).slopeFindDistance(16).bucket(() -> TestoModItems.TESTO_BUCKET.get()).block(() -> (LiquidBlock) TestoModBlocks.TESTO.get());
+			.slopeFindDistance(16).bucket(() -> TestoModItems.TESTO_BUCKET.get()).block(() -> (LiquidBlock) TestoModBlocks.TESTO.get());
 
 	private TestoFluid() {
 		super(PROPERTIES);

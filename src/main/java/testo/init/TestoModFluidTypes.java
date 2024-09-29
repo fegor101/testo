@@ -4,6 +4,8 @@
  */
 package testo.init;
 
+import testo.fluid.types.TestoFluidType;
+
 import testo.TestoMod;
 
 import net.minecraftforge.registries.RegistryObject;

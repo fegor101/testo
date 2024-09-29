@@ -1,3 +1,6 @@
 {
-  "item_group.testo.maintab": "Тесто"
+  "item_group.testo.maintab": "Тесто",
+  "item.testo.testo_bucket": "Ведро теста",
+  "block.testo.testo": "Тесто",
+  "fluid.testo.testo": "Тесто"
 }
