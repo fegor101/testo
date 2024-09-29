@@ -1,24 +1,11 @@
 {
-  "mod_elements": [
-    {
-      "name": "Maintab",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "maintab",
-      "metadata": {
-        "files": []
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "item_group.testo.maintab": "Тесто"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
