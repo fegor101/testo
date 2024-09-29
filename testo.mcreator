@@ -9,15 +9,40 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Testo",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testo",
+      "metadata": {
+        "files": [
+          "src/main/java/testo/item/TestoItem.java",
+          "src/main/resources/assets/testo/models/block/testo.json",
+          "src/main/java/testo/block/TestoBlock.java",
+          "src/main/java/testo/fluid/TestoFluid.java",
+          "src/main/java/testo/fluid/types/TestoFluidType.java",
+          "src/main/resources/assets/testo/blockstates/testo.json",
+          "src/main/resources/assets/testo/models/item/testo_bucket.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Testo"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.testo.maintab": "Тесто"
+      "item_group.testo.maintab": "Тесто",
+      "item.testo.testo_bucket": "Ведро теста",
+      "block.testo.testo": "Тесто",
+      "fluid.testo.testo": "Тесто"
     }
   },
   "foldersRoot": {

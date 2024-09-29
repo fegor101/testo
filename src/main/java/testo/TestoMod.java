@@ -1,5 +1,11 @@
 package testo;
 
+import testo.init.TestoModTabs;
+import testo.init.TestoModItems;
+import testo.init.TestoModFluids;
+import testo.init.TestoModFluidTypes;
+import testo.init.TestoModBlocks;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -37,6 +43,14 @@ public class TestoMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		TestoModBlocks.REGISTRY.register(bus);
+
+		TestoModItems.REGISTRY.register(bus);
+
+		TestoModTabs.REGISTRY.register(bus);
+
+		TestoModFluids.REGISTRY.register(bus);
+		TestoModFluidTypes.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
